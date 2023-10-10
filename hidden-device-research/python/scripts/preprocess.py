@@ -83,8 +83,8 @@ def inference(net, x, device, flip=False, rotate=[], visualize=False,force_cuboi
 parser = argparse.ArgumentParser(description='preprocessing step for csi_localization')
 parser.add_argument('--depth_model', default='../model/nyu.h5', type=str, help='Pre-trained model file from DenseDepth')
 parser.add_argument('--layout_model', default='../model/resnet50_rnn__panos2d3d.pth', type=str, help='Pre-trained model file from HorizonNet')
-parser.add_argument('--input', default='../input/608/3_4/*.png', type=str, help='Directory to test files')
-parser.add_argument('--output_dir', default='../outputs/608/3_4', type=str, help='Directory to place produced images')
+parser.add_argument('--input', default='../input/input_2/*.png', type=str, help='Directory to test files')
+parser.add_argument('--output_dir', default='../outputs/input_2', type=str, help='Directory to place produced images')
 args = parser.parse_args()
 
 print(args.depth_model)
