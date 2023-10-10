@@ -7,22 +7,22 @@ To determine L, W, and H estimates of the room the application leverages two mod
 To estimate density, the application uses the same RGB images provided earlier and feeds them to YOLO, an object detection model, to find all objects in the environment. To estimate density of each object, a pseudo-LiDAR approach is taken using the depth images generated in the previous step to create 3D point clouds of each object. Bounding boxes that surround the identified objects are then used to calculate the dimensions of each image. And density is determined by simply adding the densities of all identified objects.
 
 
-The following model files are stored on 'Not Brienne' in the UW Bothell CyberSecurity lab at the file path '<ENTER FILEPATH>'
+The following model files are stored on 'Not Brienne' in the UW Bothell CyberSecurity lab at the file path `<ENTER FILEPATH>`
 
-+nyu.h5
-+resnet50\_rnn\_\_panos2d3d.pth
-+resnet50\_rnn\_\_st3d.pth
-+yolov7.pt
-kitti.h5
++ nyu.h5
++ resnet50\_rnn\_\_panos2d3d.pth
++ resnet50\_rnn\_\_st3d.pth
++ yolov7.pt
++ kitti.h5
 
-Place all of these files in the './models' directory
+Place all of these files in the `./models` directory
 
 ---
-##Using the application
+## Using the application
 
 To run the application:
 
-'python3 manage.py runserver'
+`python3 manage.py runserver`
 
 The application should be running on localhost port 8000
 

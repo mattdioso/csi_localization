@@ -1,4 +1,4 @@
-#CSI demo
+# CSI demo
 ---
 This subfolder contains scripts used in a demo given to students on how to capture and process CSI data.
 
