@@ -10,8 +10,8 @@ To estimate density, the application uses the same RGB images provided earlier a
 The following model files are stored on 'Not Brienne' in the UW Bothell CyberSecurity lab at the file path `<ENTER FILEPATH>`
 
 + nyu.h5
-+ resnet50\_rnn\_\_panos2d3d.pth
-+ resnet50\_rnn\_\_st3d.pth
++ resnet50_rnn__panos2d3d.pth
++ resnet50_rnn__st3d.pth
 + yolov7.pt
 + kitti.h5
 

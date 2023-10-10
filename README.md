@@ -8,10 +8,10 @@ This work improves on this estimation time and also removes the physical require
 
 ## Subfolders
 ---
-### ar\_csi\_localization/
+### ar_csi_localization/
 This subfolder contains an Android Application project meant to be the main interface for users that want to use this system. It's purpose was to capture RGB images of the environment which are then sent to a Django web server to determine physical dimensions (L, W, H) of the environment. The version here presents users with an AR-capable, interactive interface in which the user can place anchors at key corners of the room for the app to calculate the dimensions.
 
-### django\_csi\_localization
+### django_csi_localization
 This subfolder contains a Django web application whose purpose is to intake RGB images of environments from client devices to calculate its dimensions. It exposes one REST API endpoint to take in RGB images.
 
 ### hidden-device-research
